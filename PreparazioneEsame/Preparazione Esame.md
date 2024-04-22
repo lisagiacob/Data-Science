@@ -4,7 +4,7 @@ Deadline: → February 22, 2024
 
 ## SQL and Warehouses
 
-![Screenshot 2024-02-12 alle 13.20.53.png](Preparazione%20Esame%2007188e8a93b7476e8333a3a4caa3ca08/Screenshot_2024-02-12_alle_13.20.53.png)
+![Screenshot 2024-02-12 alle 13.20.53.png](Files/Screenshot_2024-02-12_alle_13.20.53.png)
 
 ```sql
 SELECT categoria, 
@@ -53,9 +53,9 @@ WHERE F.codCliente = C.codCliente
 GROUP BY Regione, Mese, Anno;
 ```
 
-[DSTBD_Quaderno1-ITA.pdf](Preparazione%20Esame%2007188e8a93b7476e8333a3a4caa3ca08/DSTBD_Quaderno1-ITA.pdf)
+[DSTBD_Quaderno1-ITA.pdf](Files/DSTBD_Quaderno1-ITA.pdf)
 
-![Screenshot 2023-11-27 alle 13.48.38.png](Preparazione%20Esame%2007188e8a93b7476e8333a3a4caa3ca08/Screenshot_2023-11-27_alle_13.48.38.png)
+![Screenshot 2023-11-27 alle 13.48.38.png](Files/Screenshot_2023-11-27_alle_13.48.38.png)
 
 ```sql
 BIGLIETTO(IdBiglietto, IdTempo, IdMuseo, Tipo, ModAcq, Fascia, Entrate, Numero)
@@ -83,9 +83,9 @@ WHERE M.IdMuseo = B.IdMuseo AND T.IdTempo = B.IdTempo AND T.Anno = "2021"
 GROUP BY Museo, Tipo, Categoria
 ```
 
-![Screenshot 2024-02-12 alle 15.22.16.png](Preparazione%20Esame%2007188e8a93b7476e8333a3a4caa3ca08/Screenshot_2024-02-12_alle_15.22.16.png)
+![Screenshot 2024-02-12 alle 15.22.16.png](Files/Screenshot_2024-02-12_alle_15.22.16.png)
 
-![Screenshot 2024-02-12 alle 15.31.55.png](Preparazione%20Esame%2007188e8a93b7476e8333a3a4caa3ca08/Screenshot_2024-02-12_alle_15.31.55.png)
+![Screenshot 2024-02-12 alle 15.31.55.png](Files/Screenshot_2024-02-12_alle_15.31.55.png)
 
 ```sql
 SELECT TipologiaTariffa, Anno,
@@ -105,7 +105,7 @@ GROUP BY
 
 ## Materialized View e Trigger
 
-[Viste-Materializzate-e-trigger_Testo.pdf](Preparazione%20Esame%2007188e8a93b7476e8333a3a4caa3ca08/Viste-Materializzate-e-trigger_Testo.pdf)
+[Viste-Materializzate-e-trigger_Testo.pdf](Files/Viste-Materializzate-e-trigger_Testo.pdf)
 
 1. Definiamo il Blocco A comprendendo i requisiti delle interrogazioni
     1. Per ogni coppia (tipologia dei servizi, semestre), visualizzare l’incasso totale e il numero totale di consulenze, effettuate dai consulenti delle sedi site in Lombardia.
@@ -288,7 +288,7 @@ Per ogni indice possibile ragiono su selettività, group by, copertura, primario
 
 ## Anticipo GB:
 
-![Screenshot 2024-02-16 alle 11.59.19.png](Preparazione%20Esame%2007188e8a93b7476e8333a3a4caa3ca08/Screenshot_2024-02-16_alle_11.59.19.png)
+![Screenshot 2024-02-16 alle 11.59.19.png](Filse/Screenshot_2024-02-16_alle_11.59.19.png)
 
 Abbiamo un SemiJoin: il ramo di destra serve per selezionare ma non esce nel risultato → posso anticipare solo sul ramo di sinistra, escludo k,i,j
 Il semiJoin è su CodV, posso anticipare la GB prima del SemiJoin perchè la GB è a sua volta su CodV
@@ -344,18 +344,18 @@ Numero di volte che ho predetto correttamente l’appartenenza di un punto alla 
 
 ISL IXL SL SIXL XL
 
-![Screenshot 2024-02-18 alle 13.59.02.png](Preparazione%20Esame%2007188e8a93b7476e8333a3a4caa3ca08/Screenshot_2024-02-18_alle_13.59.02.png)
+![Screenshot 2024-02-18 alle 13.59.02.png](Filse/Screenshot_2024-02-18_alle_13.59.02.png)
 
-[Esame 16/06/2023](Preparazione%20Esame%2007188e8a93b7476e8333a3a4caa3ca08/Esame%2016%2006%202023%20cdd79c5fbdd84c518b2798fb7dec8543.csv)
+[Esame 16/06/2023](Files/Esame%2016%2006%202023%20cdd79c5fbdd84c518b2798fb7dec8543.csv)
 
-[Esame 21/02/2023](Preparazione%20Esame%2007188e8a93b7476e8333a3a4caa3ca08/Esame%2021%2002%202023%20252c8e9b9ef64e2ca6b5a6b275d33a01.csv)
+[Esame 21/02/2023](Files/Esame%2021%2002%202023%20252c8e9b9ef64e2ca6b5a6b275d33a01.csv)
 
-[Esame 23/01/2023](Preparazione%20Esame%2007188e8a93b7476e8333a3a4caa3ca08/Esame%2023%2001%202023%201ef4fd7c9d98401092cdd979cb325835.csv)
+[Esame 23/01/2023](Files/Esame%2023%2001%202023%201ef4fd7c9d98401092cdd979cb325835.csv)
 
-[Esame 31/08/2022](Preparazione%20Esame%2007188e8a93b7476e8333a3a4caa3ca08/Esame%2031%2008%202022%20b6677538406042c7add0b2abf9edd193.csv)
+[Esame 31/08/2022](Files/Esame%2031%2008%202022%20b6677538406042c7add0b2abf9edd193.csv)
 
-[Esame 01/07/2022](Preparazione%20Esame%2007188e8a93b7476e8333a3a4caa3ca08/Esame%2001%2007%202022%20a184880572f34e4bae6695faffade339.csv)
+[Esame 01/07/2022](Files/Esame%2001%2007%202022%20a184880572f34e4bae6695faffade339.csv)
 
-[Esame 09/02/2022](Preparazione%20Esame%2007188e8a93b7476e8333a3a4caa3ca08/Esame%2009%2002%202022%20fc1c299d443a4970ab471b2f1f1aa21d.csv)
+[Esame 09/02/2022](Files/Esame%2009%2002%202022%20fc1c299d443a4970ab471b2f1f1aa21d.csv)
 
-[Esame 15/06/2021](Preparazione%20Esame%2007188e8a93b7476e8333a3a4caa3ca08/Esame%2015%2006%202021%207dd5104234c3467db7bb2bac762c7603.csv)
+[Esame 15/06/2021](Files/Esame%2015%2006%202021%207dd5104234c3467db7bb2bac762c7603.csv)
