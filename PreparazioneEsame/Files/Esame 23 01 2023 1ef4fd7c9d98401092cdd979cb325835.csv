@@ -1,0 +1,17 @@
+﻿"N. ",Argomento,Domanda,Punteggio,Prove
+5.1,Schema Concettuale,,1,12/02
+5.2,Schema Concettuale,,1,12/02 - Errore Disattenzione
+5.3,Misure,,1,12/02
+"4.1 ",Query SQL,,3,12/02 - Dubbio: Q1 stato nella select?
+4.2,Query SQL,,4,12/02 - Errore: somma cumulativa order by
+4.3,Query SQL,,4,12/02 - Errore: Media
+7,Materialized View e Trigger,,7,15/02
+10,MongoDB,,1,
+6.1,Cardinalità,,1.5,16/02
+6.2,Indici,,1.5,16/02
+6.3,Anticipo GB,,2,16/02 - Errore: card(f)>card(k)
+8,FP-growth,,2.5,16/02
+11,Log,UNDO e REDO,1,
+9,"random forest ",qual’è la precisione per la classe C e il richiamo per la classe B?,1,
+3,Notazione,S è conflict serializable perchè è conflict equivalent allo schedule seriale:,1,
+2,Distanza di Manhattan,DBSCAN viene applicato al seguente dataset bidimensionale.,1 (penalità 15%),

@@ -1,0 +1,17 @@
+﻿"N. ",Argomento,Domanda,Punteggio,Prove
+1,Schema Concettuale,,1,15/02
+16,Schema Concettuale,,1,
+6,Misure,,1,15/02
+15,Query SQL,,4,15/02 - Errore: partition
+5,Query SQL,,4,15/02
+13,Query SQL,,3,
+3,"Materialized View, Trigger",,4,15/02
+11,Indici,,1.5,
+8,Cardinalità,,1.5,
+14,Anticipo GB,,2,
+7,FP-Growth,,2,
+4,MongoDB,,1,
+2,Clustering,,1.5,
+9,Correlazione,,1,
+10,Transaction Manager,,1,
+12,Scheduler,,1.5,

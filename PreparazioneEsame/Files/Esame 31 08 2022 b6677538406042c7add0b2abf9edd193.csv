@@ -1,0 +1,17 @@
+﻿"N. ",Argomento,Domanda,Punteggio,Prove
+10,Schema Concettuale,,1,13/02/23
+15,Schema Concettuale,,1,13/02
+1,Misure,,1,13/02
+2,Query SQL,,4,13/02 - Errore nel calcolo della media
+16,Query SQL,,4,"13/02 "
+9,Query SQL,,3,13/02 - Errore: partition by
+13,Materialized View e Trigger,,4,14/02 -T1
+5,MongoDB,,1.5,
+7,Indici,,1.5,
+3,Cardinalità,,1.5,
+14,Anticipo Group By,,2,
+8,warm restart,,1,
+6,Precisione e richiamo,,1.5,
+12,KMeans,,1,
+4,Normalizzazione z-score,,1.5,
+11,schedule trasazioni,"serializable, view equivalent",1.5,

@@ -1,0 +1,17 @@
+﻿"N. ",Argomento,Domanda,Punteggio,Prove
+14,Misure,,1,15/02
+1,Schema Concettuale,,1,14/02
+12,Schema Concettuale,,1,15/02
+3,Query SQL,,4,"14/02 - Errore: partition, order by"
+10,Query SQL,,4,15/02
+17,Query SQL,,3,15/02
+7,"Materialized View, Trigger",,5,15/02
+13,Cardinalità,,1.5,16/02 - Errore: GB
+16,Anticipo Group By,,2,16/02
+5,Indici,,1.5,16/02
+11,Apriori,,2,18/01
+6,Precisione e richiamo,,1,18/01
+4,MongoDB,,1,
+2,Scheduler,,1,
+8,File log,,1,
+15,Clustering,,2,

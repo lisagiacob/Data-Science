@@ -1,0 +1,17 @@
+﻿"N. ",Argomento,Domanda,Punteggio,Prove
+14,Schema concettuale,,1 (penalità 15%),12/02
+5,Schema concettuale,,1 (penalità 15%),12/02
+6,Misure,,1 (penalità 15%),12/02
+13,Query SQL,,4,12/02 - Errore: partition x2
+7,Query SQL,,3,"12/02 - Errore: GB, WHERE"
+11,Query SQL,,4,12/02 - Errore: over()
+12,Trigger,,5,13/02 -T1
+2.1,Cardinalità,Specificare la cardinalità di ogni ramo,1.5 (penalità 15%),
+2.3,Anticipo GROUP BY,Analizzare l’anticipazione della group by,2 (penalità 15%),
+2.2,Indici,Si selezionino le strutture fisiche accessorie per migliorare le prestazioni,1.5 (penalità 15%),
+3,Apriori,"Quali sono gli itemset di lunghezza 3 che vengono generati da Apriori dopo i passi di join e prune (con principio Apriori), prima del conteggio del supporto nela base dati?",2 (penalità 15%),
+9,Recovery,Quali operazoni vengono eseguite per un warm restart,1 (penalità 15%),
+15,MongoDB,"Si consideri al coppia (nome del corso, numero dela lezione) sufficiente aidentificare univocamente qualunque lezione tenuta.",1.5 (penalità 15%),
+8,Albero Decisionale,Numero massimo di nodi foglia,1 (penalità 15%),
+4,Locking gerarchico,Quale dele seguenti sequenze di lock può essere acquisita da una nuova transazione?,1 (penalità 15%),
+1,"Clustering ",Algoritmo MAX(complete),1.5 (penalità 15%),

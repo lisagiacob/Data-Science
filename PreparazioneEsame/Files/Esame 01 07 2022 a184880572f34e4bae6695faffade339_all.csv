@@ -1,0 +1,16 @@
+﻿"N. ",Argomento,Domanda,Punteggio,Prove
+11,Schema Concettuale,,1,15/02
+13,Schema Concettuale,,1,15/02
+15,Misure,,1,15/02
+1,Query SQL,,3,15/02
+4,Query SQL,,4,15/02
+10,Query SQL,,4,15/02 Errore: partition
+14,"Materialized View, Trigger",,4,15/02
+12,MongoDB,,1.5,
+2,Indici,,1.5,
+3,Anticipo Group By,,2,
+9,Cardinalità,,1.5,
+7,lock,,1.5,
+5,Scheduler,,1.5,
+6,Classificatore,,1.5,
+8,itemset,,2,
